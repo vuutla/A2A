@@ -6,7 +6,7 @@ import httpx
 
 from uuid import uuid4
 
-import asyncclick as click
+import click
 
 from a2a.client import A2AClient, A2ACardResolver
 from a2a.types import (
